@@ -139,6 +139,12 @@ export default function Home() {
               Call Shreya Jha
             </a>
             <Link
+              href="/teacher"
+              className="inline-flex w-full items-center justify-center rounded-full border border-white/30 px-8 py-3 text-base font-semibold text-white/90 transition hover:border-cyan-200 hover:text-cyan-100 sm:w-auto"
+            >
+              View Teacher Details
+            </Link>
+            <Link
               href="/timetable"
               className="inline-flex w-full items-center justify-center rounded-full border border-white/30 px-8 py-3 text-base font-semibold text-white/90 transition hover:border-cyan-200 hover:text-cyan-100 sm:w-auto"
             >
