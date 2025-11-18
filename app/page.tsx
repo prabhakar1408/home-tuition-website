@@ -16,12 +16,24 @@ const subjectPlans: SubjectPlan[] = [
     level: "Foundations",
     grades: "Classes 1 – 5",
     description: "Playful concept-building with phonics, number sense and EVS.",
-    feeNote: "Starting ₹1,800 / month",
+    feeNote: "All subjects (English, Maths & EVS) combo at ₹3,000 / month",
     accent: "from-cyan-400/80 to-emerald-400/80",
     subjects: [
-      { name: "English Reading & Writing", focus: "Phonics + creative writing", fee: "₹1,800" },
-      { name: "Mathematics Essentials", focus: "Number stories & mental math", fee: "₹1,900" },
-      { name: "EVS / General Science", focus: "Hands-on discovery projects", fee: "₹1,700" },
+      {
+        name: "English Reading & Writing",
+        focus: "Phonics + creative writing",
+        fee: "₹3,000 (all 1–5 subjects combo)",
+      },
+      {
+        name: "Mathematics Essentials",
+        focus: "Number stories & mental math",
+        fee: "₹3,000 (all 1–5 subjects combo)",
+      },
+      {
+        name: "EVS / General Science",
+        focus: "Hands-on discovery projects",
+        fee: "₹3,000 (all 1–5 subjects combo)",
+      },
     ],
   },
   {
