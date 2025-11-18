@@ -1,9 +1,28 @@
+import Link from "next/link";
+
 export default function TeacherPage() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-slate-950 text-slate-50">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.35),_transparent_55%)]" />
       <div className="pointer-events-none absolute inset-y-0 left-1/2 w-1/2 bg-[radial-gradient(circle_at_top,_rgba(94,234,212,0.2),_transparent_60%)] blur-3xl" />
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col gap-10 px-6 pb-16 pt-16 lg:px-10 lg:pt-20">
+        <div className="flex flex-col items-center gap-3 text-sm text-slate-200 sm:flex-row sm:justify-between">
+          <p className="uppercase tracking-[0.3em] text-cyan-200/80">BrightSteps</p>
+          <div className="flex gap-2">
+            <Link
+              href="/"
+              className="rounded-full border border-white/20 px-4 py-2 text-xs font-semibold text-white/80 transition hover:border-cyan-200 hover:text-cyan-100"
+            >
+              ← Home
+            </Link>
+            <Link
+              href="/dashboard"
+              className="rounded-full border border-cyan-200/40 px-4 py-2 text-xs font-semibold text-cyan-100 transition hover:border-cyan-200 hover:text-white"
+            >
+              Dashboard →
+            </Link>
+          </div>
+        </div>
         <header className="space-y-4 text-center lg:text-left">
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-200/80">
             Your Tutor
@@ -67,6 +86,20 @@ export default function TeacherPage() {
             Detailed contact information is shared personally after an initial enquiry to keep your
             and your child&apos;s privacy safe.
           </p>
+          <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white/90 transition hover:border-cyan-200 hover:text-cyan-100"
+            >
+              ← Back to Home
+            </Link>
+            <Link
+              href="/dashboard"
+              className="inline-flex items-center justify-center rounded-full border border-cyan-200/40 px-6 py-3 text-sm font-semibold text-cyan-100 transition hover:border-cyan-200 hover:text-white"
+            >
+              Open Dashboard →
+            </Link>
+          </div>
         </section>
       </div>
     </div>
