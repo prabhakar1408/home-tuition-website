@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type SubjectPlan = {
   level: string;
   grades: string;
@@ -136,12 +138,12 @@ export default function Home() {
             >
               Call Shreya Jha
             </a>
-            <a
-              href="mailto:care@brightsteps.com"
+            <Link
+              href="/timetable"
               className="inline-flex w-full items-center justify-center rounded-full border border-white/30 px-8 py-3 text-base font-semibold text-white/90 transition hover:border-cyan-200 hover:text-cyan-100 sm:w-auto"
             >
-              Download Timetable
-            </a>
+              View Noon Timetable
+            </Link>
           </div>
         </header>
 
