@@ -71,8 +71,6 @@ const subjectPlans: SubjectPlan[] = [
     subjects: [
       { name: "PCM Core (Math + Phy + Chem)", focus: "CBSE & competitive bridge", fee: "₹3,800" },
       { name: "PCB Care (Bio + Phy + Chem)", focus: "Labelled diagrams + numericals", fee: "₹3,600" },
-      { name: "Commerce Trio", focus: "Accounts + BST + Economics", fee: "₹3,400" },
-      { name: "Humanities Select", focus: "Political Science + Geography", fee: "₹3,200" },
     ],
   },
 ];
